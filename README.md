@@ -8,7 +8,7 @@ Run FizzBuzz in your local machine:
   - clone the project to a local folder ;
   - step into **\fizzbuzz** directory ;
   - run the following command: **tsc fizzbuzz.ts** ;
-  - and then: **node helloWorld.js**
+  - and then: **node fizzbuzz.js**
 
 And should be able to see it's output (:
 
