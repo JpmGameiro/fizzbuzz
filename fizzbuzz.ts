@@ -15,9 +15,9 @@ for (i = 1; i <= 100; i++) {
 }
 
 function divby3(n: number) {
-    return i % 3 == 0;
+    return n % 3 == 0;
 }
 
 function divby5(n: number) {
-    return i % 5 == 0;
+    return n % 5 == 0;
 }
