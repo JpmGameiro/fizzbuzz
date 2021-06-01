@@ -1,8 +1,8 @@
 
-let fizz: boolean
-let buzz: boolean
+let fizz: boolean;
+let buzz: boolean;
 
-let i: number
+let i: number;
 
 for (i = 1; i <= 100; i++) {
   fizz = divby3(i), buzz = divby5(i);
@@ -15,9 +15,9 @@ for (i = 1; i <= 100; i++) {
 }
 
 function divby3(n: number) {
-    return i % 3 == 0
+    return i % 3 == 0;
 }
 
 function divby5(n: number) {
-    return i % 5 == 0
+    return i % 5 == 0;
 }
