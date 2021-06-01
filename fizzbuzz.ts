@@ -1,15 +1,15 @@
 
-let f: boolean
-let b: boolean
+let fizz: boolean
+let buzz: boolean
 
 let i: number
 
 for (i = 1; i <= 100; i++) {
-  f = divby3(i), b = divby5(i);
+  fizz = divby3(i), buzz = divby5(i);
   console.log(
-    f && b ? "FizzBuzz"
-    : f ? "Fizz"
-    : b ? "Buzz"
+    fizz && buzz ? "FizzBuzz"
+    : fizz ? "Fizz"
+    : buzz ? "Buzz"
     : i
   );
 }
